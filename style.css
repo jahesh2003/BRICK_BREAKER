@@ -5,21 +5,7 @@
 }
 
 #canvas1 {
-	background-color: #fff;
+	background: #eee;
 	display: block;
 	margin: :0 auto;
-}
-
-.brick {
-	background-color: #f00;
-	border: 1px solid #000;
-}
-
-.paddle {
-	background-color: #00f;
-	border: 1px solid #fff;
-}
-
-.ball {
-	background-color: #fff;
 }
