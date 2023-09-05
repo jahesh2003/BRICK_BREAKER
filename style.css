@@ -1,11 +1,43 @@
-*{
-	padding: 0;
-	margin: 0;
-	
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-#canvas1 {
-	background: #eee;
-	display: block;
-	margin: :0 auto;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+canvas {
+    background-color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+.score {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.score span {
+    margin: 0 20px;
+}
+
+.score #score {
+    color: #FFD700; /* Gold color for the score */
+}
+
+.score #lives {
+    color: #FF5733; /* Reddish-Orange color for lives */
 }
