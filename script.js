@@ -75,7 +75,7 @@ function drawBricks()
 			
 			ctx.beginPath();
 			ctx.rect(brickX,brickY,brickWidth,brickHeight);
-			ctx.fillStyle="#00095DD";
+			ctx.fillStyle="#FF0000";
 			ctx.fill();
 			ctx.strokeStyle='rgba(0,0,255,0.5)';
 			ctx.stroke();
@@ -113,7 +113,7 @@ function drawBall()
 {
 	ctx.beginPath();
 	ctx.arc(x,y,ballRadius,0,Math.PI*2);
-	ctx.fillStyle="#0095DD";
+	ctx.fillStyle="#FFFFFF";
 	ctx.fill();
 	ctx.closePath();
 }
@@ -122,7 +122,7 @@ function drawPaddle()
 {
 	ctx.beginPath();
 	ctx.rect(paddleX,canvas.height-(paddleHeight),paddleWidth,paddleHeight);
-	ctx.fillStyle="#0095DD";
+	ctx.fillStyle="#00FF00";
 	ctx.fill();
 	ctx.closePath();
 }
